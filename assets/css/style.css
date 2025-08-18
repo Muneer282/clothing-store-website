@@ -1,12 +1,12 @@
-@import url("/assets/css/basic.css");
+@import url("basic.css");
 
 @font-face {
     font-family: "Integral CF";
-    src: url(/assets/font/Fontspring-DEMO-integralcf-regular.otf);
+    src: url("../font/Fontspring-DEMO-integralcf-regular.otf");
 }
 @font-face {
     font-family: "Satoshi";
-    src: url(/assets/font/Satoshi-Variable.ttf);
+    src: url("../font/Satoshi-Variable.ttf");
 }
 
 
@@ -184,7 +184,7 @@ ul li a:hover{
 }
 
 .right-section{
-    background-image: url(/assets/images/header-homepage.png);
+    background-image: url(../images/header-homepage.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -333,14 +333,14 @@ ul li a:hover{
     height: 250px;
 }
 .styles1 .casual{
-    background-image: url(/assets/images/clothes-style/dress-style-1.png);
+    background-image: url(../images/clothes-style/dress-style-1.png);
     background-position: center;
     flex-shrink: 0;
 }
 .styles1 .formal{
     flex-grow: 1;
     flex-shrink: 0;
-    background-image: url(/assets/images/clothes-style/dress-style-2.png);
+    background-image: url(../images/clothes-style/dress-style-2.png);
     background-position: center;
 }
 .styles2{
@@ -351,13 +351,13 @@ ul li a:hover{
 .styles2 .party{
     flex-grow: 1;
     flex-shrink: 0;
-    background-image: url(/assets/images/clothes-style/dress-style-3.png);
+    background-image: url(../images/clothes-style/dress-style-3.png);
     background-position: center;
     flex-shrink: 0;
 }
 .styles2 .gym{
     flex-shrink: 0;
-    background-image: url(/assets/images/clothes-style/dress-style-4.png);
+    background-image: url(../images/clothes-style/dress-style-4.png);
     background-position: center;
 }
 
