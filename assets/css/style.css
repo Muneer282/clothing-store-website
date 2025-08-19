@@ -513,5 +513,9 @@ form [type="submit"]{
     border: none;
     border-radius: 20px;
     cursor: pointer;
-
+    font-size: 16px;
+    font-weight: bold;
+}
+form [type="submit"]:hover{
+    opacity: 75%;
 }
