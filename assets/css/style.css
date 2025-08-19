@@ -187,6 +187,35 @@ ul li a:hover{
     background-image: url(../images/header-homepage.png);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+}
+.right-section img:first-child{
+    position: absolute;
+    top: 60px;
+    right: 0px;
+    transform: rotate(0deg);
+    animation-name: starsAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.right-section img:nth-child(2){
+    position: absolute;
+    top: 250px;
+    left: 20px;
+    transform: rotate(0deg);
+    animation-name: starsAnimation;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes starsAnimation{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
 }
 
 /* companies section style */
