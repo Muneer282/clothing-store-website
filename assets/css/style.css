@@ -363,7 +363,7 @@ ul li a:hover{
 
 /* customer happy section */
 .Customer-happy{
-    /* height: 100vh; */
+    height: 100vh;
     padding-top:10px;
 }
 .Customer-happy h2{
@@ -418,13 +418,14 @@ ul li a:hover{
 
 
 
-
+/* footer section begin */
 footer{
     background-color: var(--seconde-color);
-    padding-top: 100px;
+    padding-top: 130px;
+    position: relative;
 }
 
-footer .container{
+footer .container:nth-child(2){
     display: flex;
     justify-content: space-between;
     text-transform: capitalize;
@@ -453,4 +454,64 @@ footer ul{
 }
 footer ul li a{
     color: gray;
+}
+
+footer .container:first-child{
+    background-color: var(--third-color);
+    border-radius: 30px;
+    height: 180px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -100px;
+    right: -50%;
+    left: -50%;
+}
+footer .container:first-child p{
+    font-family: var(--header-font);
+    font-size: 3vw;
+    color: white;
+    width: 450px;
+}
+foote .container:first-child form{
+    width: 400px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div.inputemail{
+    width: 300px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+div.inputemail label{
+    margin: 0px 10px;
+    height: 24px;
+}
+div.inputemail input{
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    
+}
+div.inputemail input:focus{
+    border: none;
+    outline: none;
+}
+
+form [type="submit"]{
+    width: 300px;
+    height: 40px;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
 }
