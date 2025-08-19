@@ -239,7 +239,7 @@ ul li a:hover{
 
 /* service section style */
 .service{
-    height: 360vh;
+    height: 340vh;
 }
 .service h2{
     text-align: center;
@@ -499,7 +499,7 @@ footer .container:first-child{
 }
 footer .container:first-child p{
     font-family: var(--header-font);
-    font-size: 3vw;
+    font-size: 2.4vw;
     color: white;
     width: 450px;
 }
@@ -542,8 +542,8 @@ form [type="submit"]{
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    font-size: 16px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: bold;;
 }
 form [type="submit"]:hover{
     opacity: 75%;
